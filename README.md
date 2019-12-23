@@ -51,7 +51,7 @@ Access the Yarn resource manager UI using the following link : http://localhost:
 
 Access Jupyter Notebook using this link : http://localhost:8888/
 
-<img src="/home/lem/LEM's LAB/Repos/micro-cluster-lab/img/docker_jupyter.png" alt="jupyter" style="zoom:50%;" />
+<img src="img/docker_jupyter.png" alt="jupyter" style="zoom:50%;" />
 
 ### Stopping the micro-lab
 
