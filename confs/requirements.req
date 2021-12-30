@@ -1,6 +1,4 @@
-scikit-learn
-matplotlib
-jupyter
+jupyterLab
 pyspark
 numpy
 dask
