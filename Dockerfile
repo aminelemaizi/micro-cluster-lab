@@ -15,6 +15,7 @@ RUN apt-get update && \
 RUN apt update && apt install -y python3 python3-pip python3-dev build-essential libssl-dev libffi-dev libpq-dev
 
 COPY /confs/requirements.req /
+RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.req
 RUN pip3 install dask[bag] --upgrade
 RUN pip3 install --upgrade toree
