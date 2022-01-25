@@ -24,8 +24,8 @@ RUN wget -P /tmp/ https://archive.apache.org/dist/hadoop/common/hadoop-2.7.0/had
 RUN tar xvf /tmp/hadoop-2.7.0.tar.gz -C /tmp && \
 	mv /tmp/hadoop-2.7.0 /opt/hadoop
 
-RUN wget -P /tmp/ https://downloads.apache.org/spark/spark-2.4.5/spark-2.4.5-bin-hadoop2.7.tgz
-RUN tar xvf /tmp/spark-2.4.5-bin-hadoop2.7.tgz -C /tmp && \
+RUN wget -P /tmp/ https://downloads.apache.org/spark/spark-2.4.8/spark-2.4.8-bin-hadoop2.7.tgz
+RUN tar xvf /tmp/spark-2.4.8-bin-hadoop2.7.tgz -C /tmp && \
     mv /tmp/spark-2.4.5-bin-hadoop2.7 ${SPARK_HOME}
 
 RUN ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa && \
